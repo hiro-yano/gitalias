@@ -1,6 +1,13 @@
 [user]
 	email = 
 	name = hiro-yano
+[credential]
+        helper = cache
+[url "https://"]
+        insteadOf = git://
+[core]
+        editor = vim -c \"set fenc=utf-8\"
+
 ##
 # GitAlias.com file of many git alias items, including shortcuts, helpers, workflows, etc.
 #
